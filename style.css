@@ -140,7 +140,7 @@
    align-content: center;
    justify-content: center;
    
-   padding-top: 13%;
+   padding-top: 13rem;
    
  
    
@@ -151,7 +151,8 @@
    align-items: center;
    justify-content: center;
    height: calc(100vh-3.5rem);
-   padding-top: 13rem;
+   padding-top: 10rem;
+  
    
    
   
@@ -248,7 +249,8 @@
 .container-2{
    display: flex;
    flex-direction: column;
-   margin:5%;
+   margin:12%;
+ 
    padding-top: 7%;
   
   
@@ -260,6 +262,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-bottom: 7rem;
    
    
    
@@ -269,6 +272,7 @@
    padding-left:15px ;
    padding-right:15px ;
    border-radius: 3px;
+   
 }
 .cola-2{
 
@@ -276,7 +280,7 @@
  display: flex;
  
  gap: 5%;
- margin-top: 5%;
+
  padding-bottom: 15%;
 
 
@@ -301,7 +305,7 @@
 
 }
 .i2{
- padding-top: 5%;
+ padding-top: 5rem;
  height: 250px;
  
 
@@ -317,8 +321,9 @@
 }
 @media (max-width:1264px) {
  .container-2{
-  
+
  padding: 10%;
+ margin-top: 10rem;
  
    
  }
@@ -345,8 +350,8 @@
 
  
  .at{
-   margin-top: 25%;
-   text-align: justify;
+   margin-top: 6rem;
+   text-align: center;
    width: 100%;
  }
  
@@ -381,10 +386,11 @@
  border-width: 2px;
  border-color: rgba(166, 151, 151, 0.2);*/
  
- padding: 0.7rem;
+ padding: 0.6rem;
  display: grid;
  row-gap: 0.1rem;
  z-index: 1;
+ 
  
 
 
@@ -460,6 +466,7 @@
   border-color: rgb(0, 0, 0,0.2);
   padding: 0.1rem 0.1rem 0rem 0.1rem;
   border-radius: 10px;
+ 
   /*background-color: rgb(212, 203, 203);*/
 
  }
@@ -479,7 +486,7 @@
  text-align: start;
  animation-name: ht;
  animation-duration: 5s;
- animation-delay: 3s;
+ animation-delay: 5s;
  
 
 }
@@ -492,7 +499,7 @@
  background-color:var(--col) ;
  animation-name: css;
  animation-duration: 5s;
- animation-delay: 3s;
+ animation-delay: 5s;
 
 }
 .bari3{
@@ -503,7 +510,7 @@
  background-color:var(--col) ;
  animation-name: js;
  animation-duration: 5s;
- animation-delay: 3s;
+ animation-delay: 5s;
 
 }
 .bari4{
@@ -515,7 +522,7 @@
  background-color:var(--col) ;
  animation-name: p;
  animation-duration: 5s;
- animation-delay: 3s;
+ animation-delay: 5s;
   
 
 }
@@ -526,7 +533,7 @@
  background-color:var(--col) ;
  animation-name: c;
  animation-duration: 5s;
- animation-delay: 3s;
+ animation-delay: 5s;
 
 }
 .bari6{
@@ -537,7 +544,7 @@
  border-radius: 10px;
  animation-name: cp;
  animation-duration: 5s ;
-animation-delay: 3s;
+animation-delay: 5s;
 
  
  
