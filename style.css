@@ -167,7 +167,7 @@
  }
  .i1{
    padding-top: 2%;
-   height:400px ;
+   height:375px ;
  }
 
  .name{
@@ -234,7 +234,7 @@
   
       display: flex;
       flex-direction: column;
-      padding-left: 5%;
+      padding-left: 5rem;
      
  }  
  .col1{
