@@ -239,11 +239,11 @@
  }  
  .col1{
   padding-top: 30%;
-     padding-left: 8rem;
+     padding-left: 5rem;
  }
  .col2{
    padding-top: 4rem;
-     padding-left: 5rem;
+     padding-left: 5%;
  }
  .social-media{
    margin-top: 2.75rem;
@@ -360,7 +360,7 @@
  
  .at{
    margin-top: 6rem;
-   text-align: justify;
+   text-align: center;
    width: 100%;
  }
  
