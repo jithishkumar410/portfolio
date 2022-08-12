@@ -5,12 +5,16 @@
    --col:#CA63FF
    }
    *{
-     margin: 0;
-     padding: 0;
+     margin: 0%;
+     padding: 0%;
      font-family: var(--font);
    }
    html{
      scroll-behavior: smooth;
+   }
+   html,body{
+   max-width: 100%;
+   overflow-x: hidden;
    }
   
  
@@ -75,7 +79,7 @@
        display: block;
        text-align: center;
        float: right;
-      padding-right: 5%;
+      padding-right: 10%;
       
      }
     
@@ -124,6 +128,10 @@
    position: relative;
    display: flex;
    flex-direction: row;
+   max-width:100%;
+   overflow-x: hidden;
+
+ 
   
    
    
@@ -226,6 +234,7 @@
   
       display: flex;
       flex-direction: column;
+      padding-left: 5%;
      
  }  
  .col1{
@@ -238,9 +247,6 @@
    margin-top: 2.75rem;
    
 }
-.col-1-1{
- padding-left: 6%;
-}
 
 
 }
@@ -249,7 +255,8 @@
 .container-2{
    display: flex;
    flex-direction: column;
-   margin:12%;
+   margin-top:12%;
+   margin-bottom:12%;
  
    padding-top: 7%;
   
@@ -313,7 +320,7 @@
  
 }
 .at{
-
+  padding-top: 2.5rem;
  width: 60%;
  text-align:justify;
  
@@ -486,7 +493,7 @@
  text-align: start;
  animation-name: ht;
  animation-duration: 5s;
- animation-delay: 5s;
+ animation-delay: 7s;
  
 
 }
@@ -499,7 +506,7 @@
  background-color:var(--col) ;
  animation-name: css;
  animation-duration: 5s;
- animation-delay: 5s;
+ animation-delay: 7s;
 
 }
 .bari3{
@@ -510,7 +517,7 @@
  background-color:var(--col) ;
  animation-name: js;
  animation-duration: 5s;
- animation-delay: 5s;
+ animation-delay: 7s;
 
 }
 .bari4{
@@ -522,7 +529,7 @@
  background-color:var(--col) ;
  animation-name: p;
  animation-duration: 5s;
- animation-delay: 5s;
+ animation-delay: 7s;
   
 
 }
@@ -533,7 +540,7 @@
  background-color:var(--col) ;
  animation-name: c;
  animation-duration: 5s;
- animation-delay: 5s;
+ animation-delay: 7s;
 
 }
 .bari6{
@@ -544,7 +551,7 @@
  border-radius: 10px;
  animation-name: cp;
  animation-duration: 5s ;
-animation-delay: 5s;
+animation-delay: 7s;
 
  
  
