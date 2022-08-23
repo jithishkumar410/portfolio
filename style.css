@@ -307,6 +307,7 @@
 .cola-1-2{
  flex: 1 ;
  display: flex;
+ margin:0.4rem;
  justify-content: start;
  
 
