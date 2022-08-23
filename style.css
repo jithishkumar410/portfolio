@@ -495,7 +495,7 @@
  text-align: start;
  animation-name: ht;
  animation-duration: 5s;
- animation-delay: 7s;
+ animation-delay: 10s;
  
 
 }
@@ -507,8 +507,8 @@
  border-radius: 10px;
  background-color:var(--col) ;
  animation-name: css;
- animation-duration: 5s;
- animation-delay: 7s;
+ animation-duration: 7s;
+animation-delay: 10s;
 
 }
 .bari3{
@@ -518,9 +518,8 @@
  border-radius: 10px;
  background-color:var(--col) ;
  animation-name: js;
- animation-duration: 5s;
- animation-delay: 7s;
-
+ animation-duration: 6s;
+animation-delay: 10s;
 }
 .bari4{
  
@@ -530,8 +529,8 @@
  border-radius: 10px;
  background-color:var(--col) ;
  animation-name: p;
- animation-duration: 5s;
- animation-delay: 7s;
+ animation-duration: 8s;
+ animation-delay: 10s;
   
 
 }
@@ -542,7 +541,7 @@
  background-color:var(--col) ;
  animation-name: c;
  animation-duration: 5s;
- animation-delay: 7s;
+animation-delay: 10s;
 
 }
 .bari6{
@@ -552,8 +551,8 @@
  padding-left: 65%;
  border-radius: 10px;
  animation-name: cp;
- animation-duration: 5s ;
-animation-delay: 7s;
+ animation-duration: 6s ;
+animation-delay: 10s;
 
  
  
