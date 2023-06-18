@@ -719,6 +719,12 @@ padding-top: 4rem;
     border-radius: 10px;
     border: 3px solid var(--col);
 }
+.prt{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ 
  
 
 footer{
