@@ -728,7 +728,12 @@ padding-top: 4rem;
   flex-wrap: wrap;
 }
  
- 
+ @media (max-width:1264px) 
+  {
+   .po1,.conts-2{
+    width: 17.5rem;
+   }
+  }
 
 footer{
 margin: 2rem;
