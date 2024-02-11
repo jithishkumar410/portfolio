@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <title>Portfolio</title>
     
 </head>
@@ -36,13 +37,24 @@
         <div class="col-1-1"  data-aos="fade-down">
         <h2 class="head" >Hi,
           <br>I'am <span class="name">JithishKumar.</span>
-          <br>a Student</h2>
+          <br><h1><span class="t"></span></h1></h2>
+          <script>
+            var typed = new Typed('.t', {
+              strings: ['Full Stack Developer','Student'],
+              typeSpeed: 100,
+              backSpeed: 100,
+              loop:true
+            });
+          </script>
           
         <div class="social-media">
           <a  data-aos="fade-down" data-aos-delay="600" href="https://www.linkedin.com/in/jithish-kumar-59b236223" class="lin"><i class="fa-brands fa-linkedin"></i></a>
-            <a  data-aos="fade-down"  data-aos-delay="800" href="https://github.com/jithishkumar410" class="git"><i class="fa-brands fa-github"></i></a>
-              <a  data-aos="fade-down"  data-aos-delay="1000" href="https://www.instagram.com/jithish__410/"class="insta"><i class="fa-brands fa-instagram"></i></a>
+            <a  data-aos="fade-down"  data-aos-delay="900" href="https://github.com/jithishkumar410" class="git"><i class="fa-brands fa-github"></i></a>
+              <a  data-aos="fade-down"  data-aos-delay="1100" href="https://www.instagram.com/jithish__410/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+              <a data-aos="fade-down" data-aos-delay="1300" href="portfolio\assets\Jithish-Kumar-S-CV.pdf" class="insta" download><i class="fa-solid fa-file"></i></a>
+
         </div>
+
       </div>
   </div>
   <div class="col2" data-aos="fade-left">
@@ -72,16 +84,33 @@
     <div class="cons-1"  data-aos="fade-down">
        <h1 class="skl">Skills</h1>
     </div>
+   <div style="z-index: -1;display: flex; flex-wrap: wrap;">
     <div class="conts-2"  data-aos="fade-up">
+     
+    
+     <div id="d" class="py">  <h3>PYTHON<span style="float: right;">75%</span></h3><span class="bar4"><span class="bari4"></span></span></div>
+     <div id="d" class="js">  <h3>JAVASCRIPT<span style="float: right;">70%</span></h3><span class="bar3"><span class="bari3"></span></span></div>
+     <div id="d" class="cp">  <h3>C<span style="float: right;">65%</span></h3><span class="bar6"><span class="bari6"></span></span></div>
+     <div id="d" class="c">   <h3>C++<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari5"></span></span></div>
      <div id="d" class="html"><h3>HTML<span style="float: right;">90%</span></h3><span class="bar1"><span class="bari1" ></span></span></div>
      <div id="d" class="css"> <h3>CSS<span style="float: right;">80%</span></h3><span class="bar2"><span class="bari2"></span></span></div>
-     <div id="d" class="js">  <h3>JAVASCRIPT<span style="float: right;">70%</span></h3><span class="bar3"><span class="bari3"></span></span></div>
-     <div id="d" class="py">  <h3>PYTHON<span style="float: right;">75%</span></h3><span class="bar4"><span class="bari4"></span></span></div>
-     <div id="d" class="c">   <h3>C++<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari5"></span></span></div>
-     <div id="d" class="cp">  <h3>C<span style="float: right;">65%</span></h3><span class="bar6"><span class="bari6"></span></span></div>
-     <div id="d" class="cp">  <h3>DJANGO<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari5"></span></span></div>
+     <div id="d" class="ms">  <h3>TAILWIND CSS<span style="float: right;">80%</span></h3><span class="bar2"><span class="bari2"></span></span></div>
+     
+    </div>
+
+    <div class="conts-2"  data-aos="fade-up">
+      <div id="d" class="js"><h3>DJANGO<span style="float: right;">70%</span></h3><span class="bar1"><span class="bari3" ></span></span></div>
+      <div id="d" class="cp"> <h3>REACT<span style="float: right;">65%</span></h3><span class="bar6"><span class="bari6"></span></span></div>
+      <div id="d" class="c">  <h3>EXPRESS<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari5"></span></span></div>
+      <div id="d" class="c">  <h3>NEXT JS<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari5"></span></span></div>
+      <div id="d" class="ms">  <h3>MYSQL<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari6"></span></span></div>
+      <div id="d" class="css"> <h3>GIT<span style="float: right;">80%</span></h3><span class="bar2"><span class="bari2"></span></span></div>
+      <div id="d" class="c">  <h3>DOCKER<span style="float: right;">60%</span></h3><span class="bar5"><span class="bari5"></span></span></div>
+     </div>
+
     </div>
   </main>
+
 
 
 
