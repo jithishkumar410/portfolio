@@ -72,6 +72,28 @@ nav{
   border-radius: 2px;
 
 }
+/* download cv */
+.dcv{
+  
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: var(--col);
+  margin-top: 2rem;
+  transition-duration: 2s;
+  padding-inline: 3rem;
+  
+}
+.dcv:hover{
+  border:solid 2px var(--col);
+  background-color: white;
+  color: var(--col);
+}
+/* download cv */
+
+
 @media (max-width:1024px) {
   .tog{
    position: relative;
@@ -139,6 +161,7 @@ overflow-x: hidden;
 .col-1-1{
 display: flex;
 flex-direction: column;
+align-items: center;
 
 }
 .col1{
@@ -181,10 +204,10 @@ font-size: 2.5rem;
 
 }
 .social-media{
-margin-top: 3.5rem;
+margin-top: 2.5rem;
 display: flex;
 justify-content: space-around;
-padding-right: 3rem;
+gap:3rem;
 
 
 }
