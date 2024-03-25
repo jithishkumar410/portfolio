@@ -83,7 +83,7 @@ nav{
   background-color: var(--col);
   margin-top: 2rem;
   transition-duration: 2s;
-  padding-inline: 3rem;
+  padding-inline: 2rem;
   
 }
 .dcv:hover{
@@ -161,7 +161,7 @@ overflow-x: hidden;
 .col-1-1{
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: start;
 
 }
 .col1{
@@ -723,6 +723,7 @@ padding-top: 4rem;
 }
 .pdes{
     margin: 0.5rem;
+    padding-top: 1rem;
     margin-bottom: 1.5rem;
 }
 .pat{
