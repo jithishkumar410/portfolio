@@ -84,6 +84,7 @@ nav{
   margin-top: 2rem;
   transition-duration: 2s;
   padding-inline: 2rem;
+  border:solid 2px var(--col);
   
 }
 .dcv:hover{
